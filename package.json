@@ -1,0 +1,25 @@
+{
+  "name": "smart-summarizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "fs-extra": "^8.1.0",
+    "hbs": "^4.0.4",
+    "multer": "^1.4.2",
+    "mysql2": "^1.6.5",
+    "node-tesseract-ocr": "^0.1.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "rimraf": "^2.6.3",
+    "sequelize": "^5.12.0",
+    "textrank": "^1.0.5"
+  }
+}
